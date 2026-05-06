@@ -1,0 +1,29 @@
+{
+  "name": "discord-master-bot",
+  "version": "1.0.0",
+  "description": "The ultimate open-source Discord bot for store management, tickets, moderation and more.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "deploy": "node deploy-commands.js"
+  },
+  "keywords": ["discord", "bot", "store", "tickets", "open-source", "moderation"],
+  "author": "Elias Gabriel (FLEG)",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "@discordjs/rest": "^2.3.0",
+    "discord-api-types": "^0.37.83",
+    "dotenv": "^16.4.5",
+    "fs-extra": "^11.2.0",
+    "node-cron": "^3.0.3",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
